@@ -31,7 +31,6 @@ export default function App() {
           ItemSeparatorComponent={itemSeparator}
           renderItem={({item}) => 
             <View style={styles.listItem}>
-              <Text>Viesti: </Text>
               <Text>{item}</Text>
             </View>
           }
